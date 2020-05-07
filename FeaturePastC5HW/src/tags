@@ -1,0 +1,329 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AEC_FFT_LEN	./dios_ssp_aec_macros.h	23;"	d
+AEC_HIGH_CHAN	./dios_ssp_aec_macros.h	28;"	d
+AEC_LOW_CHAN	./dios_ssp_aec_macros.h	26;"	d
+AEC_MID_CHAN	./dios_ssp_aec_macros.h	27;"	d
+AEC_SAMPLE_RATE	./dios_ssp_aec_macros.h	22;"	d
+AEC_SINGLE_TALK_FRAMES	./dios_ssp_aec_macros.h	63;"	d
+AEC_SUBBAND_NUM	./dios_ssp_aec_macros.h	24;"	d
+AEC_WIN_LEN	./dios_ssp_aec_macros.h	25;"	d
+ALPHA_MSE_FILT_COPY_HIGH	./dios_ssp_aec_macros.h	38;"	d
+ALPHA_MSE_FILT_COPY_LOW	./dios_ssp_aec_macros.h	37;"	d
+DIOS_SSP_RSHIFT_W32	./dios_ssp_share_complex_defs.h	97;"	d
+DIOS_SSP_WORD16_MAX	./dios_ssp_share_complex_defs.h	21;"	d
+DIOS_SSP_WORD16_MIN	./dios_ssp_share_complex_defs.h	22;"	d
+DOUBLE_TALK_STATUS	./dios_ssp_aec_macros.h	66;"	d
+ERL_BAND_NUM	./dios_ssp_aec_macros.h	60;"	d
+ERL_BOUND_H	./dios_ssp_aec_macros.h	58;"	d
+ERL_BOUND_L	./dios_ssp_aec_macros.h	59;"	d
+ERR_AEC	./dios_ssp_aec_macros.h	69;"	d
+FAREND_TALK_CNT	./dios_ssp_aec_macros.h	29;"	d
+FCOMPLEX	./dios_ssp_share_complex_defs.h	/^typedef struct FCOMPLEX { float r, i; } fcomplex;$/;"	s
+FCOMPLEX::i	./dios_ssp_share_complex_defs.h	/^typedef struct FCOMPLEX { float r, i; } fcomplex;$/;"	m	struct:FCOMPLEX	access:public
+FCOMPLEX::r	./dios_ssp_share_complex_defs.h	/^typedef struct FCOMPLEX { float r, i; } fcomplex;$/;"	m	struct:FCOMPLEX	access:public
+FILTER_COPY_FAC	./dios_ssp_aec_macros.h	48;"	d
+FILTER_UPDATE_FAC_BIN_THR1	./dios_ssp_aec_macros.h	43;"	d
+FILTER_UPDATE_FAC_BIN_THR2	./dios_ssp_aec_macros.h	45;"	d
+FILTER_UPDATE_FAC_DT	./dios_ssp_aec_macros.h	42;"	d
+FILTER_UPDATE_FAC_NON_DT	./dios_ssp_aec_macros.h	41;"	d
+FILTER_UPDATE_FAC_PARA1	./dios_ssp_aec_macros.h	44;"	d
+FILTER_UPDATE_FAC_PARA2	./dios_ssp_aec_macros.h	46;"	d
+MIC_CHAN_MAX_NOISE	./dios_ssp_aec_macros.h	54;"	d
+MIC_CHAN_MIN_NOISE	./dios_ssp_aec_macros.h	55;"	d
+MSE_RATIO_OUT_IN	./dios_ssp_aec_macros.h	47;"	d
+Mq_max	./dios_ssp_share_rfft.c	/^    int Mq_max;$/;"	m	struct:__anon2	file:	access:public
+NEAREND_TALK_STATUS	./dios_ssp_aec_macros.h	64;"	d
+NL_RUN_MIN_LEN	./dios_ssp_aec_macros.h	49;"	d
+NTAPS_HIGH_BAND	./dios_ssp_aec_macros.h	33;"	d
+NTAPS_LOW_BAND	./dios_ssp_aec_macros.h	32;"	d
+NUM_MAX_BAND	./dios_ssp_aec_macros.h	34;"	d
+NormW16	./dios_ssp_share_complex_defs.c	/^int NormW16(short a)$/;"	f	signature:(short a)
+NormW16	./dios_ssp_share_complex_defs.h	/^int NormW16(short a);$/;"	p	signature:(short a)
+PI	./dios_ssp_aec_macros.h	20;"	d
+Ppf_decm	./dios_ssp_share_subband.h	/^	int Ppf_decm;$/;"	m	struct:__anon4	access:public
+Ppf_tap	./dios_ssp_share_subband.h	/^	int Ppf_tap;$/;"	m	struct:__anon4	access:public
+RFFT_PARAM	./dios_ssp_share_rfft.c	/^} RFFT_PARAM;$/;"	t	typeref:struct:__anon2	file:
+SINGLE_TALK_STATUS	./dios_ssp_aec_macros.h	65;"	d
+SPK_MAX_NOISE	./dios_ssp_aec_macros.h	50;"	d
+SPK_MIN_NOISE	./dios_ssp_aec_macros.h	51;"	d
+SPK_PART_MAX_NOISE	./dios_ssp_aec_macros.h	52;"	d
+SPK_PART_MIN_NOISE	./dios_ssp_aec_macros.h	53;"	d
+_DIOS_SSP_AEC_API_H_	./dios_ssp_aec_api.h	10;"	d
+_DIOS_SSP_AEC_FIRFILTER_H_	./dios_ssp_aec_firfilter.h	10;"	d
+_DIOS_SSP_AEC_MACROS_H_	./dios_ssp_aec_macros.h	18;"	d
+_DIOS_SSP_API_H_	./dios_ssp_api.h	10;"	d
+_DIOS_SSP_SHARE_COMPLEX_DEFS_H_	./dios_ssp_share_complex_defs.h	10;"	d
+_DIOS_SSP_SHARE_RFFT_H_	./dios_ssp_share_rfft.h	10;"	d
+_DIOS_SSP_SHARE_SUBBAND_H_	./dios_ssp_share_subband.h	10;"	d
+_DIOS_SSP_TDE_H_	./dios_ssp_tde.h	10;"	d
+__anon1::cfg_frame_len	./dios_ssp_api.c	/^    int cfg_frame_len;$/;"	m	struct:__anon1	file:	access:public
+__anon1::cfg_mic_num	./dios_ssp_api.c	/^    int cfg_mic_num;$/;"	m	struct:__anon1	file:	access:public
+__anon1::cfg_ref_num	./dios_ssp_api.c	/^    int cfg_ref_num;$/;"	m	struct:__anon1	file:	access:public
+__anon1::dt_st	./dios_ssp_api.c	/^    int dt_st;$/;"	m	struct:__anon1	file:	access:public
+__anon1::ptr_aec	./dios_ssp_api.c	/^	void* ptr_aec;$/;"	m	struct:__anon1	file:	access:public
+__anon1::ptr_data_buf	./dios_ssp_api.c	/^	float* ptr_data_buf;$/;"	m	struct:__anon1	file:	access:public
+__anon1::ptr_mic_buf	./dios_ssp_api.c	/^	float* ptr_mic_buf;$/;"	m	struct:__anon1	file:	access:public
+__anon1::ptr_ref_buf	./dios_ssp_api.c	/^	float* ptr_ref_buf;$/;"	m	struct:__anon1	file:	access:public
+__anon2::Mq_max	./dios_ssp_share_rfft.c	/^    int Mq_max;$/;"	m	struct:__anon2	file:	access:public
+__anon2::fft_len	./dios_ssp_share_rfft.c	/^    int fft_len;$/;"	m	struct:__anon2	file:	access:public
+__anon2::wi	./dios_ssp_share_rfft.c	/^    float *wi;$/;"	m	struct:__anon2	file:	access:public
+__anon2::wr	./dios_ssp_share_rfft.c	/^    float *wr;$/;"	m	struct:__anon2	file:	access:public
+__anon3::adf_coef	./dios_ssp_aec_firfilter.h	/^	xcomplex*** adf_coef;$/;"	m	struct:__anon3	access:public
+__anon3::adjust_flag	./dios_ssp_aec_firfilter.h	/^	int adjust_flag;$/;"	m	struct:__anon3	access:public
+__anon3::band_table	./dios_ssp_aec_firfilter.h	/^	int** band_table;$/;"	m	struct:__anon3	access:public
+__anon3::beta	./dios_ssp_aec_firfilter.h	/^	float beta;$/;"	m	struct:__anon3	access:public
+__anon3::dt_status	./dios_ssp_aec_firfilter.h	/^	int* dt_status;$/;"	m	struct:__anon3	access:public
+__anon3::echo_return_band_energy	./dios_ssp_aec_firfilter.h	/^	float* echo_return_band_energy;$/;"	m	struct:__anon3	access:public
+__anon3::energy_err_adf	./dios_ssp_aec_firfilter.h	/^	float *energy_err_adf;$/;"	m	struct:__anon3	access:public
+__anon3::energy_err_fir	./dios_ssp_aec_firfilter.h	/^	float *energy_err_fir;$/;"	m	struct:__anon3	access:public
+__anon3::erl_ratio	./dios_ssp_aec_firfilter.h	/^	float** erl_ratio;$/;"	m	struct:__anon3	access:public
+__anon3::err_adf	./dios_ssp_aec_firfilter.h	/^	xcomplex* err_adf;$/;"	m	struct:__anon3	access:public
+__anon3::err_fir	./dios_ssp_aec_firfilter.h	/^	xcomplex* err_fir;$/;"	m	struct:__anon3	access:public
+__anon3::err_out	./dios_ssp_aec_firfilter.h	/^	float* err_out;        \/\/ filter result error output$/;"	m	struct:__anon3	access:public
+__anon3::est_ref_adf	./dios_ssp_aec_firfilter.h	/^	xcomplex** est_ref_adf;$/;"	m	struct:__anon3	access:public
+__anon3::est_ref_fir	./dios_ssp_aec_firfilter.h	/^	xcomplex** est_ref_fir;$/;"	m	struct:__anon3	access:public
+__anon3::far_end_talk_holdtime	./dios_ssp_aec_firfilter.h	/^	int far_end_talk_holdtime;$/;"	m	struct:__anon3	access:public
+__anon3::fir_coef	./dios_ssp_aec_firfilter.h	/^	xcomplex*** fir_coef;$/;"	m	struct:__anon3	access:public
+__anon3::lambda	./dios_ssp_aec_firfilter.h	/^	float* lambda;$/;"	m	struct:__anon3	access:public
+__anon3::mic_peak	./dios_ssp_aec_firfilter.h	/^	float** mic_peak;$/;"	m	struct:__anon3	access:public
+__anon3::mic_rec_part_band_energy	./dios_ssp_aec_firfilter.h	/^	float* mic_rec_part_band_energy;$/;"	m	struct:__anon3	access:public
+__anon3::mic_rec_psd	./dios_ssp_aec_firfilter.h	/^	float* mic_rec_psd;$/;"	m	struct:__anon3	access:public
+__anon3::mic_send_part_band_energy	./dios_ssp_aec_firfilter.h	/^	float* mic_send_part_band_energy;$/;"	m	struct:__anon3	access:public
+__anon3::mse_adpt	./dios_ssp_aec_firfilter.h	/^	float* mse_adpt;  \/\/err_adf mse$/;"	m	struct:__anon3	access:public
+__anon3::mse_main	./dios_ssp_aec_firfilter.h	/^	float* mse_main;  \/\/err_fir mse$/;"	m	struct:__anon3	access:public
+__anon3::mse_mic_in	./dios_ssp_aec_firfilter.h	/^	float* mse_mic_in; \/\/ mse of mic input singal$/;"	m	struct:__anon3	access:public
+__anon3::myu	./dios_ssp_aec_firfilter.h	/^	float myu;$/;"	m	struct:__anon3	access:public
+__anon3::num_main_subband_adf	./dios_ssp_aec_firfilter.h	/^	int* num_main_subband_adf;$/;"	m	struct:__anon3	access:public
+__anon3::power_echo_rtn_adpt	./dios_ssp_aec_firfilter.h	/^	float** power_echo_rtn_adpt;$/;"	m	struct:__anon3	access:public
+__anon3::power_echo_rtn_fir	./dios_ssp_aec_firfilter.h	/^	float** power_echo_rtn_fir;$/;"	m	struct:__anon3	access:public
+__anon3::power_echo_rtn_smooth	./dios_ssp_aec_firfilter.h	/^	float** power_echo_rtn_smooth;$/;"	m	struct:__anon3	access:public
+__anon3::power_in_ntaps_smooth	./dios_ssp_aec_firfilter.h	/^	float** power_in_ntaps_smooth;$/;"	m	struct:__anon3	access:public
+__anon3::power_mic_send_smooth	./dios_ssp_aec_firfilter.h	/^	float* power_mic_send_smooth;$/;"	m	struct:__anon3	access:public
+__anon3::ref_num	./dios_ssp_aec_firfilter.h	/^	int ref_num;$/;"	m	struct:__anon3	access:public
+__anon3::ref_psd	./dios_ssp_aec_firfilter.h	/^	float** ref_psd;$/;"	m	struct:__anon3	access:public
+__anon3::sig_mic_rec	./dios_ssp_aec_firfilter.h	/^	xcomplex* sig_mic_rec; \/\/ data input for filter x, y$/;"	m	struct:__anon3	access:public
+__anon3::sig_spk_ref	./dios_ssp_aec_firfilter.h	/^	xcomplex** sig_spk_ref;$/;"	m	struct:__anon3	access:public
+__anon3::stack_sigIn_adf	./dios_ssp_aec_firfilter.h	/^	xcomplex*** stack_sigIn_adf;$/;"	m	struct:__anon3	access:public
+__anon3::weight	./dios_ssp_aec_firfilter.h	/^	float* weight;$/;"	m	struct:__anon3	access:public
+__anon4::Ppf_decm	./dios_ssp_share_subband.h	/^	int Ppf_decm;$/;"	m	struct:__anon4	access:public
+__anon4::Ppf_tap	./dios_ssp_share_subband.h	/^	int Ppf_tap;$/;"	m	struct:__anon4	access:public
+__anon4::ana_cxout	./dios_ssp_share_subband.h	/^	xcomplex *ana_cxout;  \/\/ frequency domain complex output for analyze$/;"	m	struct:__anon4	access:public
+__anon4::ana_xin	./dios_ssp_share_subband.h	/^	float *ana_xin;       \/\/ time domain data input for analyze$/;"	m	struct:__anon4	access:public
+__anon4::ana_xout	./dios_ssp_share_subband.h	/^	float *ana_xout;      \/\/ time domain output for analyze$/;"	m	struct:__anon4	access:public
+__anon4::comp_in	./dios_ssp_share_subband.h	/^	float *comp_in;       \/\/ time domain data input for compose$/;"	m	struct:__anon4	access:public
+__anon4::comp_out	./dios_ssp_share_subband.h	/^	float *comp_out;      \/\/ data output for compose$/;"	m	struct:__anon4	access:public
+__anon4::fftin_buffer	./dios_ssp_share_subband.h	/^	float *fftin_buffer;$/;"	m	struct:__anon4	access:public
+__anon4::fftout_buffer	./dios_ssp_share_subband.h	/^	float *fftout_buffer;$/;"	m	struct:__anon4	access:public
+__anon4::frm_len	./dios_ssp_share_subband.h	/^	int frm_len;$/;"	m	struct:__anon4	access:public
+__anon4::lpf_coef	./dios_ssp_share_subband.h	/^	float* lpf_coef;      \/\/ window function$/;"	m	struct:__anon4	access:public
+__anon4::p_h0	./dios_ssp_share_subband.h	/^	int *p_h0;$/;"	m	struct:__anon4	access:public
+__anon4::p_in	./dios_ssp_share_subband.h	/^	int *p_in;$/;"	m	struct:__anon4	access:public
+__anon4::rfft_param	./dios_ssp_share_subband.h	/^	void *rfft_param;$/;"	m	struct:__anon4	access:public
+__anon4::scale	./dios_ssp_share_subband.h	/^	float scale;$/;"	m	struct:__anon4	access:public
+__anon5::band_table	./dios_ssp_aec_api.c	/^	int** band_table;$/;"	m	struct:__anon5	file:	access:public
+__anon5::doubletalk_result	./dios_ssp_aec_api.c	/^	int* doubletalk_result;$/;"	m	struct:__anon5	file:	access:public
+__anon5::est_echo	./dios_ssp_aec_api.c	/^	xcomplex** est_echo;$/;"	m	struct:__anon5	file:	access:public
+__anon5::final_out	./dios_ssp_aec_api.c	/^	xcomplex** final_out;$/;"	m	struct:__anon5	file:	access:public
+__anon5::firfilter_out	./dios_ssp_aec_api.c	/^	xcomplex** firfilter_out;$/;"	m	struct:__anon5	file:	access:public
+__anon5::freq_div_table	./dios_ssp_aec_api.c	/^	float freq_div_table[5];$/;"	m	struct:__anon5	file:	access:public
+__anon5::frm_len	./dios_ssp_aec_api.c	/^	int frm_len;$/;"	m	struct:__anon5	file:	access:public
+__anon5::input_mic_subband	./dios_ssp_aec_api.c	/^	xcomplex** input_mic_subband;$/;"	m	struct:__anon5	file:	access:public
+__anon5::input_mic_time	./dios_ssp_aec_api.c	/^	float** input_mic_time;$/;"	m	struct:__anon5	file:	access:public
+__anon5::input_ref_subband	./dios_ssp_aec_api.c	/^	xcomplex** input_ref_subband;$/;"	m	struct:__anon5	file:	access:public
+__anon5::input_ref_time	./dios_ssp_aec_api.c	/^	float** input_ref_time;$/;"	m	struct:__anon5	file:	access:public
+__anon5::mic_num	./dios_ssp_aec_api.c	/^	int mic_num;$/;"	m	struct:__anon5	file:	access:public
+__anon5::mic_tde	./dios_ssp_aec_api.c	/^	float *mic_tde;$/;"	m	struct:__anon5	file:	access:public
+__anon5::ref_buffer	./dios_ssp_aec_api.c	/^	float *ref_buffer;$/;"	m	struct:__anon5	file:	access:public
+__anon5::ref_buffer_len	./dios_ssp_aec_api.c	/^	int ref_buffer_len;$/;"	m	struct:__anon5	file:	access:public
+__anon5::ref_num	./dios_ssp_aec_api.c	/^	int ref_num;$/;"	m	struct:__anon5	file:	access:public
+__anon5::ref_tde	./dios_ssp_aec_api.c	/^	float *ref_tde;$/;"	m	struct:__anon5	file:	access:public
+__anon5::st_firfilter	./dios_ssp_aec_api.c	/^	objFirFilter** st_firfilter;$/;"	m	struct:__anon5	file:	access:public
+__anon5::st_subband_mic	./dios_ssp_aec_api.c	/^	objSubBand** st_subband_mic;$/;"	m	struct:__anon5	file:	access:public
+__anon5::st_subband_ref	./dios_ssp_aec_api.c	/^	objSubBand** st_subband_ref;$/;"	m	struct:__anon5	file:	access:public
+adf_coef	./dios_ssp_aec_firfilter.h	/^	xcomplex*** adf_coef;$/;"	m	struct:__anon3	access:public
+adjust_flag	./dios_ssp_aec_firfilter.h	/^	int adjust_flag;$/;"	m	struct:__anon3	access:public
+aec_channel_to_band	./dios_ssp_aec_firfilter.c	/^int aec_channel_to_band(int **band_table, int ch)$/;"	f	signature:(int **band_table, int ch)
+ana_cxout	./dios_ssp_share_subband.h	/^	xcomplex *ana_cxout;  \/\/ frequency domain complex output for analyze$/;"	m	struct:__anon4	access:public
+ana_xin	./dios_ssp_share_subband.h	/^	float *ana_xin;       \/\/ time domain data input for analyze$/;"	m	struct:__anon4	access:public
+ana_xout	./dios_ssp_share_subband.h	/^	float *ana_xout;      \/\/ time domain output for analyze$/;"	m	struct:__anon4	access:public
+array_frm_len	./main.c	/^const int array_frm_len = 128;$/;"	v
+band_table	./dios_ssp_aec_api.c	/^	int** band_table;$/;"	m	struct:__anon5	file:	access:public
+band_table	./dios_ssp_aec_firfilter.h	/^	int** band_table;$/;"	m	struct:__anon3	access:public
+beta	./dios_ssp_aec_firfilter.h	/^	float beta;$/;"	m	struct:__anon3	access:public
+cfg_frame_len	./dios_ssp_api.c	/^    int cfg_frame_len;$/;"	m	struct:__anon1	file:	access:public
+cfg_mic_num	./dios_ssp_api.c	/^    int cfg_mic_num;$/;"	m	struct:__anon1	file:	access:public
+cfg_ref_num	./dios_ssp_api.c	/^    int cfg_ref_num;$/;"	m	struct:__anon1	file:	access:public
+comp_in	./dios_ssp_share_subband.h	/^	float *comp_in;       \/\/ time domain data input for compose$/;"	m	struct:__anon4	access:public
+comp_out	./dios_ssp_share_subband.h	/^	float *comp_out;      \/\/ data output for compose$/;"	m	struct:__anon4	access:public
+complex_abs	./dios_ssp_share_complex_defs.c	/^float complex_abs(xcomplex z)$/;"	f	signature:(xcomplex z)
+complex_abs	./dios_ssp_share_complex_defs.h	/^float complex_abs(xcomplex z);$/;"	p	signature:(xcomplex z)
+complex_abs2	./dios_ssp_share_complex_defs.c	/^float complex_abs2(xcomplex cp)$/;"	f	signature:(xcomplex cp)
+complex_abs2	./dios_ssp_share_complex_defs.h	/^float complex_abs2(xcomplex cp);$/;"	p	signature:(xcomplex cp)
+complex_add	./dios_ssp_share_complex_defs.c	/^xcomplex complex_add(xcomplex a, xcomplex b)$/;"	f	signature:(xcomplex a, xcomplex b)
+complex_add	./dios_ssp_share_complex_defs.h	/^xcomplex complex_add(xcomplex a, xcomplex b);$/;"	p	signature:(xcomplex a, xcomplex b)
+complex_avg_vec	./dios_ssp_share_complex_defs.c	/^xcomplex complex_avg_vec(xcomplex *cpVec, int cpVecLen)$/;"	f	signature:(xcomplex *cpVec, int cpVecLen)
+complex_avg_vec	./dios_ssp_share_complex_defs.h	/^xcomplex complex_avg_vec(xcomplex *cpVec, int cpVecLen);$/;"	p	signature:(xcomplex *cpVec, int cpVecLen)
+complex_conjg	./dios_ssp_share_complex_defs.c	/^xcomplex complex_conjg(xcomplex z)$/;"	f	signature:(xcomplex z)
+complex_conjg	./dios_ssp_share_complex_defs.h	/^xcomplex complex_conjg(xcomplex z);$/;"	p	signature:(xcomplex z)
+complex_conv	./dios_ssp_share_complex_defs.c	/^xcomplex complex_conv(int len, xcomplex *hat, xcomplex *buf)$/;"	f	signature:(int len, xcomplex *hat, xcomplex *buf)
+complex_conv	./dios_ssp_share_complex_defs.h	/^xcomplex complex_conv(int len, xcomplex *hat, xcomplex *buf);$/;"	p	signature:(int len, xcomplex *hat, xcomplex *buf)
+complex_data_push	./dios_ssp_share_complex_defs.c	/^void complex_data_push(int len, xcomplex xin, xcomplex *buf)$/;"	f	signature:(int len, xcomplex xin, xcomplex *buf)
+complex_data_push	./dios_ssp_share_complex_defs.h	/^void complex_data_push(int len, xcomplex xin, xcomplex *buf);$/;"	p	signature:(int len, xcomplex xin, xcomplex *buf)
+complex_div	./dios_ssp_share_complex_defs.c	/^xcomplex complex_div(xcomplex a, xcomplex b)$/;"	f	signature:(xcomplex a, xcomplex b)
+complex_div	./dios_ssp_share_complex_defs.h	/^xcomplex complex_div(xcomplex a, xcomplex b);$/;"	p	signature:(xcomplex a, xcomplex b)
+complex_div2	./dios_ssp_share_complex_defs.c	/^xcomplex complex_div2(xcomplex a, xcomplex b)$/;"	f	signature:(xcomplex a, xcomplex b)
+complex_div2	./dios_ssp_share_complex_defs.h	/^xcomplex complex_div2(xcomplex a, xcomplex b);$/;"	p	signature:(xcomplex a, xcomplex b)
+complex_div_real	./dios_ssp_share_complex_defs.c	/^xcomplex complex_div_real(xcomplex cp, float r)$/;"	f	signature:(xcomplex cp, float r)
+complex_div_real	./dios_ssp_share_complex_defs.h	/^xcomplex complex_div_real(xcomplex cp, float r);$/;"	p	signature:(xcomplex cp, float r)
+complex_gen	./dios_ssp_share_complex_defs.c	/^xcomplex complex_gen(float re, float im)$/;"	f	signature:(float re, float im)
+complex_gen	./dios_ssp_share_complex_defs.h	/^xcomplex complex_gen(float re, float im);$/;"	p	signature:(float re, float im)
+complex_mul	./dios_ssp_share_complex_defs.c	/^xcomplex complex_mul(xcomplex a, xcomplex b)$/;"	f	signature:(xcomplex a, xcomplex b)
+complex_mul	./dios_ssp_share_complex_defs.h	/^xcomplex complex_mul(xcomplex a, xcomplex b);$/;"	p	signature:(xcomplex a, xcomplex b)
+complex_real_complex_mul	./dios_ssp_share_complex_defs.c	/^xcomplex complex_real_complex_mul(float x, xcomplex a)$/;"	f	signature:(float x, xcomplex a)
+complex_real_complex_mul	./dios_ssp_share_complex_defs.h	/^xcomplex complex_real_complex_mul(float x, xcomplex a);$/;"	p	signature:(float x, xcomplex a)
+complex_sqrt	./dios_ssp_share_complex_defs.c	/^xcomplex complex_sqrt(xcomplex z)$/;"	f	signature:(xcomplex z)
+complex_sqrt	./dios_ssp_share_complex_defs.h	/^xcomplex complex_sqrt(xcomplex z);$/;"	p	signature:(xcomplex z)
+complex_sub	./dios_ssp_share_complex_defs.c	/^xcomplex complex_sub(xcomplex a, xcomplex b)$/;"	f	signature:(xcomplex a, xcomplex b)
+complex_sub	./dios_ssp_share_complex_defs.h	/^xcomplex complex_sub(xcomplex a, xcomplex b);$/;"	p	signature:(xcomplex a, xcomplex b)
+dios_ssp_aec_firfilter_detect	./dios_ssp_aec_firfilter.c	/^void dios_ssp_aec_firfilter_detect(objFirFilter *srv)$/;"	f	signature:(objFirFilter *srv)
+dios_ssp_aec_firfilter_init	./dios_ssp_aec_firfilter.c	/^objFirFilter* dios_ssp_aec_firfilter_init(int ref_num)$/;"	f	signature:(int ref_num)
+dios_ssp_aec_firfilter_init	./dios_ssp_aec_firfilter.h	/^objFirFilter* dios_ssp_aec_firfilter_init(int ref_num);$/;"	p	signature:(int ref_num)
+dios_ssp_aec_firfilter_process	./dios_ssp_aec_firfilter.c	/^int dios_ssp_aec_firfilter_process(objFirFilter* srv, xcomplex* output_buf, xcomplex* est_echo)$/;"	f	signature:(objFirFilter* srv, xcomplex* output_buf, xcomplex* est_echo)
+dios_ssp_aec_firfilter_process	./dios_ssp_aec_firfilter.h	/^int dios_ssp_aec_firfilter_process(objFirFilter* ptr, xcomplex* output_buf, xcomplex* est_echo);$/;"	p	signature:(objFirFilter* ptr, xcomplex* output_buf, xcomplex* est_echo)
+dios_ssp_aec_firfilter_reset	./dios_ssp_aec_firfilter.c	/^int dios_ssp_aec_firfilter_reset(objFirFilter* srv)$/;"	f	signature:(objFirFilter* srv)
+dios_ssp_aec_firfilter_reset	./dios_ssp_aec_firfilter.h	/^int dios_ssp_aec_firfilter_reset(objFirFilter* ptr);$/;"	p	signature:(objFirFilter* ptr)
+dios_ssp_aec_firfilter_uninit	./dios_ssp_aec_firfilter.c	/^int dios_ssp_aec_firfilter_uninit(objFirFilter* srv)$/;"	f	signature:(objFirFilter* srv)
+dios_ssp_aec_firfilter_uninit	./dios_ssp_aec_firfilter.h	/^int dios_ssp_aec_firfilter_uninit(objFirFilter* ptr);$/;"	p	signature:(objFirFilter* ptr)
+dios_ssp_aec_init_api	./dios_ssp_aec_api.c	/^void* dios_ssp_aec_init_api(int mic_num, int ref_num, int frm_len, int delay)$/;"	f	signature:(int mic_num, int ref_num, int frm_len, int delay)
+dios_ssp_aec_init_api	./dios_ssp_aec_api.h	/^void* dios_ssp_aec_init_api(int mic_num, int ref_num, int frm_len, int delay);$/;"	p	signature:(int mic_num, int ref_num, int frm_len, int delay)
+dios_ssp_aec_process_api	./dios_ssp_aec_api.c	/^int dios_ssp_aec_process_api(void* ptr, float* io_buf, float* ref_buf, int* dt_st)$/;"	f	signature:(void* ptr, float* io_buf, float* ref_buf, int* dt_st)
+dios_ssp_aec_process_api	./dios_ssp_aec_api.h	/^int dios_ssp_aec_process_api(void* ptr, float* io_buf, float* ref_buf, int* dt_st);$/;"	p	signature:(void* ptr, float* io_buf, float* ref_buf, int* dt_st)
+dios_ssp_aec_reset_api	./dios_ssp_aec_api.c	/^int dios_ssp_aec_reset_api(void* ptr)$/;"	f	signature:(void* ptr)
+dios_ssp_aec_reset_api	./dios_ssp_aec_api.h	/^int dios_ssp_aec_reset_api(void* ptr);$/;"	p	signature:(void* ptr)
+dios_ssp_aec_residual	./dios_ssp_aec_firfilter.c	/^void dios_ssp_aec_residual(objFirFilter *srv)$/;"	f	signature:(objFirFilter *srv)
+dios_ssp_aec_uninit_api	./dios_ssp_aec_api.c	/^int dios_ssp_aec_uninit_api(void* ptr)$/;"	f	signature:(void* ptr)
+dios_ssp_aec_uninit_api	./dios_ssp_aec_api.h	/^int dios_ssp_aec_uninit_api(void* ptr);$/;"	p	signature:(void* ptr)
+dios_ssp_estecho_output	./dios_ssp_aec_firfilter.c	/^void dios_ssp_estecho_output(objFirFilter *srv, xcomplex* output_buf, xcomplex* est_echo)$/;"	f	signature:(objFirFilter *srv, xcomplex* output_buf, xcomplex* est_echo)
+dios_ssp_init_api	./dios_ssp_api.c	/^void* dios_ssp_init_api(int delay)$/;"	f	signature:(int delay)
+dios_ssp_init_api	./dios_ssp_api.h	/^void* dios_ssp_init_api(int delay);$/;"	p	signature:(int delay)
+dios_ssp_process_api	./dios_ssp_api.c	/^int dios_ssp_process_api(void* ptr, short* mic_buf, short* ref_buf, short* out_buf)$/;"	f	signature:(void* ptr, short* mic_buf, short* ref_buf, short* out_buf)
+dios_ssp_process_api	./dios_ssp_api.h	/^int dios_ssp_process_api(void* ptr, short* mic_buf, short* ref_buf, short* out_buf);$/;"	p	signature:(void* ptr, short* mic_buf, short* ref_buf, short* out_buf)
+dios_ssp_reset_api	./dios_ssp_api.c	/^int dios_ssp_reset_api(void* ptr)$/;"	f	signature:(void* ptr)
+dios_ssp_reset_api	./dios_ssp_api.h	/^int dios_ssp_reset_api(void* ptr);$/;"	p	signature:(void* ptr)
+dios_ssp_share_irfft_process	./dios_ssp_share_rfft.c	/^int dios_ssp_share_irfft_process(void *rfft_handle, float *inbuffer, float *outbuffer)$/;"	f	signature:(void *rfft_handle, float *inbuffer, float *outbuffer)
+dios_ssp_share_irfft_process	./dios_ssp_share_rfft.h	/^int dios_ssp_share_irfft_process(void *rfft_handle, float *inbuffer, float *outbuffer);$/;"	p	signature:(void *rfft_handle, float *inbuffer, float *outbuffer)
+dios_ssp_share_rfft_init	./dios_ssp_share_rfft.c	/^void *dios_ssp_share_rfft_init(int fft_len)$/;"	f	signature:(int fft_len)
+dios_ssp_share_rfft_init	./dios_ssp_share_rfft.h	/^void *dios_ssp_share_rfft_init(int fft_len);    $/;"	p	signature:(int fft_len)
+dios_ssp_share_rfft_process	./dios_ssp_share_rfft.c	/^int dios_ssp_share_rfft_process(void *rfft_handle, float *inbuffer, float *outbuffer)$/;"	f	signature:(void *rfft_handle, float *inbuffer, float *outbuffer)
+dios_ssp_share_rfft_process	./dios_ssp_share_rfft.h	/^int dios_ssp_share_rfft_process(void *rfft_handle, float *inbuffer, float *outbuffer);$/;"	p	signature:(void *rfft_handle, float *inbuffer, float *outbuffer)
+dios_ssp_share_rfft_uninit	./dios_ssp_share_rfft.c	/^int dios_ssp_share_rfft_uninit(void *rfft_handle)$/;"	f	signature:(void *rfft_handle)
+dios_ssp_share_rfft_uninit	./dios_ssp_share_rfft.h	/^int dios_ssp_share_rfft_uninit(void *rfft_handle);$/;"	p	signature:(void *rfft_handle)
+dios_ssp_share_subband_analyse	./dios_ssp_share_subband.c	/^int dios_ssp_share_subband_analyse(objSubBand* srv, float* in_buf, xcomplex* out_buf)$/;"	f	signature:(objSubBand* srv, float* in_buf, xcomplex* out_buf)
+dios_ssp_share_subband_analyse	./dios_ssp_share_subband.h	/^int dios_ssp_share_subband_analyse(objSubBand* ptr, float* in_buf, xcomplex* out_buf);$/;"	p	signature:(objSubBand* ptr, float* in_buf, xcomplex* out_buf)
+dios_ssp_share_subband_compose	./dios_ssp_share_subband.c	/^int dios_ssp_share_subband_compose(objSubBand* srv, xcomplex* in_buf, float* out_buf)$/;"	f	signature:(objSubBand* srv, xcomplex* in_buf, float* out_buf)
+dios_ssp_share_subband_compose	./dios_ssp_share_subband.h	/^int dios_ssp_share_subband_compose(objSubBand* ptr, xcomplex* in_buf, float* out_buf);$/;"	p	signature:(objSubBand* ptr, xcomplex* in_buf, float* out_buf)
+dios_ssp_share_subband_init	./dios_ssp_share_subband.c	/^objSubBand* dios_ssp_share_subband_init(int frm_len)$/;"	f	signature:(int frm_len)
+dios_ssp_share_subband_init	./dios_ssp_share_subband.h	/^objSubBand* dios_ssp_share_subband_init(int frm_len);$/;"	p	signature:(int frm_len)
+dios_ssp_share_subband_reset	./dios_ssp_share_subband.c	/^int dios_ssp_share_subband_reset(objSubBand* srv)$/;"	f	signature:(objSubBand* srv)
+dios_ssp_share_subband_reset	./dios_ssp_share_subband.h	/^int dios_ssp_share_subband_reset(objSubBand* ptr);$/;"	p	signature:(objSubBand* ptr)
+dios_ssp_share_subband_uninit	./dios_ssp_share_subband.c	/^int dios_ssp_share_subband_uninit(objSubBand* srv)$/;"	f	signature:(objSubBand* srv)
+dios_ssp_share_subband_uninit	./dios_ssp_share_subband.h	/^int dios_ssp_share_subband_uninit(objSubBand* ptr);$/;"	p	signature:(objSubBand* ptr)
+dios_ssp_tde	./dios_ssp_tde.c	/^int dios_ssp_tde(short* inputdata, short* refdata, long int inputdata_length)$/;"	f	signature:(short* inputdata, short* refdata, long int inputdata_length)
+dios_ssp_tde	./dios_ssp_tde.h	/^int dios_ssp_tde(short* inputdata, short* refdata, long int inputdata_length);$/;"	p	signature:(short* inputdata, short* refdata, long int inputdata_length)
+dios_ssp_uninit_api	./dios_ssp_api.c	/^int dios_ssp_uninit_api(void* ptr)$/;"	f	signature:(void* ptr)
+dios_ssp_uninit_api	./dios_ssp_api.h	/^int dios_ssp_uninit_api(void* ptr);$/;"	p	signature:(void* ptr)
+doubletalk_result	./dios_ssp_aec_api.c	/^	int* doubletalk_result;$/;"	m	struct:__anon5	file:	access:public
+dt_st	./dios_ssp_api.c	/^    int dt_st;$/;"	m	struct:__anon1	file:	access:public
+dt_status	./dios_ssp_aec_firfilter.h	/^	int* dt_status;$/;"	m	struct:__anon3	access:public
+echo_return_band_energy	./dios_ssp_aec_firfilter.h	/^	float* echo_return_band_energy;$/;"	m	struct:__anon3	access:public
+energy_err_adf	./dios_ssp_aec_firfilter.h	/^	float *energy_err_adf;$/;"	m	struct:__anon3	access:public
+energy_err_fir	./dios_ssp_aec_firfilter.h	/^	float *energy_err_fir;$/;"	m	struct:__anon3	access:public
+erl_ratio	./dios_ssp_aec_firfilter.h	/^	float** erl_ratio;$/;"	m	struct:__anon3	access:public
+err_adf	./dios_ssp_aec_firfilter.h	/^	xcomplex* err_adf;$/;"	m	struct:__anon3	access:public
+err_fir	./dios_ssp_aec_firfilter.h	/^	xcomplex* err_fir;$/;"	m	struct:__anon3	access:public
+err_out	./dios_ssp_aec_firfilter.h	/^	float* err_out;        \/\/ filter result error output$/;"	m	struct:__anon3	access:public
+est_echo	./dios_ssp_aec_api.c	/^	xcomplex** est_echo;$/;"	m	struct:__anon5	file:	access:public
+est_ref_adf	./dios_ssp_aec_firfilter.h	/^	xcomplex** est_ref_adf;$/;"	m	struct:__anon3	access:public
+est_ref_fir	./dios_ssp_aec_firfilter.h	/^	xcomplex** est_ref_fir;$/;"	m	struct:__anon3	access:public
+far_end_talk_holdtime	./dios_ssp_aec_firfilter.h	/^	int far_end_talk_holdtime;$/;"	m	struct:__anon3	access:public
+fcomplex	./dios_ssp_share_complex_defs.h	/^typedef struct FCOMPLEX { float r, i; } fcomplex;$/;"	t	typeref:struct:FCOMPLEX
+fft_len	./dios_ssp_share_rfft.c	/^    int fft_len;$/;"	m	struct:__anon2	file:	access:public
+fftin_buffer	./dios_ssp_share_subband.h	/^	float *fftin_buffer;$/;"	m	struct:__anon4	access:public
+fftout_buffer	./dios_ssp_share_subband.h	/^	float *fftout_buffer;$/;"	m	struct:__anon4	access:public
+final_out	./dios_ssp_aec_api.c	/^	xcomplex** final_out;$/;"	m	struct:__anon5	file:	access:public
+fir_coef	./dios_ssp_aec_firfilter.h	/^	xcomplex*** fir_coef;$/;"	m	struct:__anon3	access:public
+firfilter_out	./dios_ssp_aec_api.c	/^	xcomplex** firfilter_out;$/;"	m	struct:__anon5	file:	access:public
+freq_div_table	./dios_ssp_aec_api.c	/^	float freq_div_table[5];$/;"	m	struct:__anon5	file:	access:public
+frm_len	./dios_ssp_aec_api.c	/^	int frm_len;$/;"	m	struct:__anon5	file:	access:public
+frm_len	./dios_ssp_share_subband.h	/^	int frm_len;$/;"	m	struct:__anon4	access:public
+i	./dios_ssp_share_complex_defs.h	/^typedef struct FCOMPLEX { float r, i; } fcomplex;$/;"	m	struct:FCOMPLEX	access:public
+input_mic_subband	./dios_ssp_aec_api.c	/^	xcomplex** input_mic_subband;$/;"	m	struct:__anon5	file:	access:public
+input_mic_time	./dios_ssp_aec_api.c	/^	float** input_mic_time;$/;"	m	struct:__anon5	file:	access:public
+input_ref_subband	./dios_ssp_aec_api.c	/^	xcomplex** input_ref_subband;$/;"	m	struct:__anon5	file:	access:public
+input_ref_time	./dios_ssp_aec_api.c	/^	float** input_ref_time;$/;"	m	struct:__anon5	file:	access:public
+lambda	./dios_ssp_aec_firfilter.h	/^	float* lambda;$/;"	m	struct:__anon3	access:public
+lpf_coef	./dios_ssp_share_subband.h	/^	float* lpf_coef;      \/\/ window function$/;"	m	struct:__anon4	access:public
+main	./main.c	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+mic_num	./dios_ssp_aec_api.c	/^	int mic_num;$/;"	m	struct:__anon5	file:	access:public
+mic_peak	./dios_ssp_aec_firfilter.h	/^	float** mic_peak;$/;"	m	struct:__anon3	access:public
+mic_rec_part_band_energy	./dios_ssp_aec_firfilter.h	/^	float* mic_rec_part_band_energy;$/;"	m	struct:__anon3	access:public
+mic_rec_psd	./dios_ssp_aec_firfilter.h	/^	float* mic_rec_psd;$/;"	m	struct:__anon3	access:public
+mic_send_part_band_energy	./dios_ssp_aec_firfilter.h	/^	float* mic_send_part_band_energy;$/;"	m	struct:__anon3	access:public
+mic_tde	./dios_ssp_aec_api.c	/^	float *mic_tde;$/;"	m	struct:__anon5	file:	access:public
+mse_adpt	./dios_ssp_aec_firfilter.h	/^	float* mse_adpt;  \/\/err_adf mse$/;"	m	struct:__anon3	access:public
+mse_main	./dios_ssp_aec_firfilter.h	/^	float* mse_main;  \/\/err_fir mse$/;"	m	struct:__anon3	access:public
+mse_mic_in	./dios_ssp_aec_firfilter.h	/^	float* mse_mic_in; \/\/ mse of mic input singal$/;"	m	struct:__anon3	access:public
+myu	./dios_ssp_aec_firfilter.h	/^	float myu;$/;"	m	struct:__anon3	access:public
+nlms_complex	./dios_ssp_aec_firfilter.c	/^void nlms_complex(int ch, objFirFilter *srv, int i_ref)$/;"	f	signature:(int ch, objFirFilter *srv, int i_ref)
+num_main_subband_adf	./dios_ssp_aec_firfilter.h	/^	int* num_main_subband_adf;$/;"	m	struct:__anon3	access:public
+objAEC	./dios_ssp_aec_api.c	/^} objAEC;$/;"	t	typeref:struct:__anon5	file:
+objAEC	./dios_ssp_api.c	/^} objAEC;$/;"	t	typeref:struct:__anon1	file:
+objFirFilter	./dios_ssp_aec_firfilter.h	/^}objFirFilter;$/;"	t	typeref:struct:__anon3
+objSubBand	./dios_ssp_share_subband.h	/^}objSubBand;$/;"	t	typeref:struct:__anon4
+p_h0	./dios_ssp_share_subband.h	/^	int *p_h0;$/;"	m	struct:__anon4	access:public
+p_in	./dios_ssp_share_subband.h	/^	int *p_in;$/;"	m	struct:__anon4	access:public
+power_echo_rtn_adpt	./dios_ssp_aec_firfilter.h	/^	float** power_echo_rtn_adpt;$/;"	m	struct:__anon3	access:public
+power_echo_rtn_fir	./dios_ssp_aec_firfilter.h	/^	float** power_echo_rtn_fir;$/;"	m	struct:__anon3	access:public
+power_echo_rtn_smooth	./dios_ssp_aec_firfilter.h	/^	float** power_echo_rtn_smooth;$/;"	m	struct:__anon3	access:public
+power_in_ntaps_smooth	./dios_ssp_aec_firfilter.h	/^	float** power_in_ntaps_smooth;$/;"	m	struct:__anon3	access:public
+power_mic_send_smooth	./dios_ssp_aec_firfilter.h	/^	float* power_mic_send_smooth;$/;"	m	struct:__anon3	access:public
+ptr_aec	./dios_ssp_api.c	/^	void* ptr_aec;$/;"	m	struct:__anon1	file:	access:public
+ptr_data_buf	./dios_ssp_api.c	/^	float* ptr_data_buf;$/;"	m	struct:__anon1	file:	access:public
+ptr_mic_buf	./dios_ssp_api.c	/^	float* ptr_mic_buf;$/;"	m	struct:__anon1	file:	access:public
+ptr_ref_buf	./dios_ssp_api.c	/^	float* ptr_ref_buf;$/;"	m	struct:__anon1	file:	access:public
+r	./dios_ssp_share_complex_defs.h	/^typedef struct FCOMPLEX { float r, i; } fcomplex;$/;"	m	struct:FCOMPLEX	access:public
+ref_buffer	./dios_ssp_aec_api.c	/^	float *ref_buffer;$/;"	m	struct:__anon5	file:	access:public
+ref_buffer_len	./dios_ssp_aec_api.c	/^	int ref_buffer_len;$/;"	m	struct:__anon5	file:	access:public
+ref_num	./dios_ssp_aec_api.c	/^	int ref_num;$/;"	m	struct:__anon5	file:	access:public
+ref_num	./dios_ssp_aec_firfilter.h	/^	int ref_num;$/;"	m	struct:__anon3	access:public
+ref_psd	./dios_ssp_aec_firfilter.h	/^	float** ref_psd;$/;"	m	struct:__anon3	access:public
+ref_tde	./dios_ssp_aec_api.c	/^	float *ref_tde;$/;"	m	struct:__anon5	file:	access:public
+rfft_param	./dios_ssp_share_subband.h	/^	void *rfft_param;$/;"	m	struct:__anon4	access:public
+scale	./dios_ssp_share_subband.h	/^	float scale;$/;"	m	struct:__anon4	access:public
+sig_mic_rec	./dios_ssp_aec_firfilter.h	/^	xcomplex* sig_mic_rec; \/\/ data input for filter x, y$/;"	m	struct:__anon3	access:public
+sig_spk_ref	./dios_ssp_aec_firfilter.h	/^	xcomplex** sig_spk_ref;$/;"	m	struct:__anon3	access:public
+st_firfilter	./dios_ssp_aec_api.c	/^	objFirFilter** st_firfilter;$/;"	m	struct:__anon5	file:	access:public
+st_subband_mic	./dios_ssp_aec_api.c	/^	objSubBand** st_subband_mic;$/;"	m	struct:__anon5	file:	access:public
+st_subband_ref	./dios_ssp_aec_api.c	/^	objSubBand** st_subband_ref;$/;"	m	struct:__anon5	file:	access:public
+stack_sigIn_adf	./dios_ssp_aec_firfilter.h	/^	xcomplex*** stack_sigIn_adf;$/;"	m	struct:__anon3	access:public
+weight	./dios_ssp_aec_firfilter.h	/^	float* weight;$/;"	m	struct:__anon3	access:public
+wi	./dios_ssp_share_rfft.c	/^    float *wi;$/;"	m	struct:__anon2	file:	access:public
+wr	./dios_ssp_share_rfft.c	/^    float *wr;$/;"	m	struct:__anon2	file:	access:public
+xabs	./dios_ssp_share_complex_defs.c	/^float xabs(float x)$/;"	f	signature:(float x)
+xabs	./dios_ssp_share_complex_defs.h	/^float xabs(float x);$/;"	p	signature:(float x)
+xcomplex	./dios_ssp_share_complex_defs.h	/^typedef fcomplex xcomplex;$/;"	t
+xmax	./dios_ssp_share_complex_defs.c	/^float xmax(float x, float y)$/;"	f	signature:(float x, float y)
+xmax	./dios_ssp_share_complex_defs.h	/^float xmax(float x, float y);$/;"	p	signature:(float x, float y)
+xmin	./dios_ssp_share_complex_defs.c	/^float xmin(float x, float y)$/;"	f	signature:(float x, float y)
+xmin	./dios_ssp_share_complex_defs.h	/^float xmin(float x, float y);$/;"	p	signature:(float x, float y)
+xsmooth_factor	./dios_ssp_share_complex_defs.c	/^float xsmooth_factor(float st)$/;"	f	signature:(float st)
+xsmooth_factor	./dios_ssp_share_complex_defs.h	/^float xsmooth_factor(float st);$/;"	p	signature:(float st)
+xsmooth_proc	./dios_ssp_share_complex_defs.c	/^float xsmooth_proc(float y, float rate, float x)$/;"	f	signature:(float y, float rate, float x)
+xsmooth_proc	./dios_ssp_share_complex_defs.h	/^float xsmooth_proc(float y, float rate, float x);$/;"	p	signature:(float y, float rate, float x)
+xsqrt	./dios_ssp_share_complex_defs.c	/^float xsqrt(float x)$/;"	f	signature:(float x)
+xsqrt	./dios_ssp_share_complex_defs.h	/^float xsqrt(float x);$/;"	p	signature:(float x)

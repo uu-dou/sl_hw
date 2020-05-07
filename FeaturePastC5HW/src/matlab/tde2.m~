@@ -1,0 +1,23 @@
+fAudio = fopen ('input.raw');
+xInput = fread (fAudio, inf, 'int16');
+xInput = xInput'/32768;
+xInputLength = length(xInput);
+
+fAudio = fopen ('ref.raw');
+xRef = fread (fAudio, inf, 'int16');
+xRef = xRef'/32768;
+xRefLength = length(xRef);
+
+N = 1024;
+L = 1024;
+iTerator = length(xInputLength)/N - 1;
+Sxy = zeros(1,xRefLength);
+
+for i=1:iTerator
+    x = xInput(1+(i-1)*N : (i-1)*N+L);
+    X1 = fft(x,N);
+    y = xRef(1+(i-1)*N : (i-1)*N+L);
+    Y1 = fft(x,N);
+    
+    Sxy(1+(i-1)*M : (i-1)*M+M)=X1.*conj(Y1);
+end
