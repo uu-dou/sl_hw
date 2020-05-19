@@ -217,7 +217,18 @@ int aec_channel_to_band(int **band_table, int ch)
 void nlms_complex(int ch, objFirFilter *srv, int i_ref)
 {
     // please finish your code here
-    
+    int filter_length   = srv->num_main_subband_adf[ch];
+	xcomplex *inputdata = srv->stack_sigIn_adf[i_ref][ch];
+	xcomplex *w         = srv->adf_coef[i_ref][ch];
+	xcomplex error      = srv->err_adf[ch];
+	float mu            = srv->weight[ch];
+
+	float power = srv->power_in_ntaps_smooth[i_ref][ch];
+    for (int j = 0; j < filter_length; j++) {
+		xcomplex e_x = complex_mul(complex_conjg(error), inputdata[j]);
+		xcomplex e_x_p =  complex_real_complex_mul(mu / power, e_x);
+        w[j] = complex_add(w[j], e_x_p);
+    }
     // end NLMS
 }
 

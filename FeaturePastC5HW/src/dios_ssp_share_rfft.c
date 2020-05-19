@@ -28,6 +28,7 @@ void *dios_ssp_share_rfft_init(int fft_len)
 	{
         rfft_param->Mq_max = i >> 1;
     }
+    printf ("Mq_max:%d\n", rfft_param->Mq_max);
     rfft_param->wi = (float *)calloc(rfft_param->Mq_max - 1, sizeof(float));
     rfft_param->wr = (float *)calloc(rfft_param->Mq_max - 1, sizeof(float));
     if (NULL == rfft_param->wi || NULL == rfft_param->wr)
